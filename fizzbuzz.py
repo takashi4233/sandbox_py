@@ -11,6 +11,3 @@ def fizzBuzz(num):
 
 for num in range(1,100):
     print (fizzBuzz(num))
-    print (type(fizzBuzz(num))) 
-
-    
