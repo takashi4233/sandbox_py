@@ -1,0 +1,6 @@
+#coding: UTF-8
+
+list = list(range(11))
+
+for i in list:
+    print (i)
