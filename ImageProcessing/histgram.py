@@ -23,4 +23,4 @@ def from_color_to_gray(src,dest):
 
 #color_hist("sample/sample.jpg")
 #color_gray_hist("sample/sample.jpg")
-from_color_to_gray("sample/sample.jpg","sample/sample_gray.jpg")
+from_color_to_gray("ImageProcessing/sample/sample.jpg","ImageProcessing/sample/sample_gray.jpg")
