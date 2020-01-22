@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="Pomegranate.local" name="pytest" skipped="0" tests="4" time="0.179" timestamp="2020-01-22T23:01:26.119408"><testcase classname="test_zoo" file="test_zoo.py" line="17" name="test_zoo0" time="0.001"></testcase><testcase classname="test_zoo" file="test_zoo.py" line="22" name="test_zoo" time="0.002"><failure message="AssertionError: 意図的にエラーを発生させている
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="Pomegranate.local" name="pytest" skipped="0" tests="4" time="0.152" timestamp="2020-01-22T23:02:47.406902"><testcase classname="test_zoo" file="test_zoo.py" line="17" name="test_zoo0" time="0.001"></testcase><testcase classname="test_zoo" file="test_zoo.py" line="22" name="test_zoo" time="0.001"><failure message="AssertionError: 意図的にエラーを発生させている
 assert &apos;にゃー😺&apos; == &apos;みゃー😺&apos;
   - にゃー😺
   ? ^
   + みゃー😺
-  ? ^">zoo_fixture = {&apos;zoo&apos;: &lt;zoo.zoo object at 0x101b49b90&gt;}
+  ? ^">zoo_fixture = {&apos;zoo&apos;: &lt;zoo.zoo object at 0x1057aaa10&gt;}
 
     def test_zoo(zoo_fixture):
         c1 = zoo_fixture[&apos;zoo&apos;].put_cat()
@@ -15,4 +15,4 @@ E         ? ^
 E         + みゃー😺
 E         ? ^
 
-test_zoo.py:25: AssertionError</failure></testcase><testcase classname="test_zoo" file="test_zoo.py" line="26" name="test_zoo2" time="0.001"></testcase><testcase classname="test_zoo" file="test_zoo.py" line="30" name="test_zoo3" time="0.001"></testcase></testsuite></testsuites>
+test_zoo.py:25: AssertionError</failure></testcase><testcase classname="test_zoo" file="test_zoo.py" line="26" name="test_zoo2" time="0.001"></testcase><testcase classname="test_zoo" file="test_zoo.py" line="30" name="test_zoo3" time="0.002"></testcase></testsuite></testsuites>
