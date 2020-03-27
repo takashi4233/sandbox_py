@@ -20,9 +20,9 @@ def test_zoo0():
     c1 = z.put_cat()
     assert c1.say() == "にゃー😺"
 
-def test_zoo(zoo_fixture):
-    c1 = zoo_fixture['zoo'].put_cat()
-    assert c1.say() == 'みゃー😺','意図的にエラーを発生させている'
+#def test_zoo(zoo_fixture):
+#    c1 = zoo_fixture['zoo'].put_cat()
+#    assert c1.say() == 'みゃー😺','意図的にエラーを発生させている'
 
 def test_zoo2(zoo_fixture):
     c1 = zoo_fixture['zoo'].put_cat()
